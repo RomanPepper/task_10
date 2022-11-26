@@ -1,0 +1,6 @@
+500
+korovka 100
+milka 200
+twix 250
+snickers 250
+korkunov 450
