@@ -9,7 +9,6 @@ public class Logic {
         int k = getMaximumPossibleKG(inputCandyList, moneys);
         List<Candy> finalCandyList = new ArrayList<>();
         Collections.sort(inputCandyList);
-        Collections.reverse(inputCandyList); //Список конфет по цене от большего к меньшему
 
         int i = inputCandyList.size() - k;
         while(k > 0) {
@@ -17,7 +16,7 @@ public class Logic {
                 finalCandyList.add(inputCandyList.get(i));
                 moneys -= inputCandyList.get(i).getPrice();
             }
-            i--;
+            i++;
             k--;
         }
 
