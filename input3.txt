@@ -1,0 +1,5 @@
+0
+korovka 150
+korkunow 1250
+korkunow 0
+snickers 0

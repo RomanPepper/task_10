@@ -25,14 +25,14 @@ public class Logic {
 
     }
 
-    public boolean isCandyNotInList(Candy candy, List<Candy> candyList) {
-        for(Candy suppCandy: candyList) {
-            if(suppCandy == candy) {
-                return false;
-            }
-        }
-        return true;
-    }
+//    public boolean isCandyNotInList(Candy candy, List<Candy> candyList) {
+//        for(Candy suppCandy: candyList) {
+//            if(suppCandy == candy) {
+//                return false;
+//            }
+//        }
+//        return true;
+//    }
 
     public int getMaximumPossibleKG(List<Candy> candyList, Integer moneys) {
         candyList.sort(Collections.reverseOrder());
